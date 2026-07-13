@@ -4,7 +4,7 @@ title:  "Jekyll Windows Install"
 date:   2026-07-12 20:14:00 -0500
 categories: jekyll install
 ---
-- Download [Ruby+Devkit][jekyll-download]
+Download/Install [Ruby+Devkit][jekyll-download]
 
 | Action | Command |
 | ------ | ------- |
