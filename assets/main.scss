@@ -3,8 +3,83 @@
 
 @import "minima";
 
+:root {
+  color-scheme: light dark;
+}
+
 .home .post-list {
   max-width: 28rem;
   margin: 0 auto;
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #c9d1d9;
+    background-color: #0d1117;
+  }
+
+  a {
+    color: #58a6ff;
+
+    &:visited {
+      color: #8b7ee8;
+    }
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .post-meta {
+    color: #8b949e;
+  }
+
+  blockquote {
+    color: #8b949e;
+    border-left-color: #30363d;
+  }
+
+  pre,
+  code {
+    border-color: #30363d;
+    background-color: #161b22;
+  }
+
+  table {
+    color: #c9d1d9;
+    border-color: #30363d;
+
+    tr:nth-child(even) {
+      background-color: #161b22;
+    }
+
+    th {
+      background-color: #1c2128;
+      border-color: #30363d;
+    }
+
+    td {
+      border-color: #30363d;
+    }
+  }
+
+  .site-header {
+    border-top-color: #30363d;
+    border-bottom-color: #30363d;
+    background-color: #0d1117;
+  }
+
+  .site-title,
+  .site-nav .page-link {
+    color: #c9d1d9;
+  }
+
+  .site-footer {
+    border-top-color: #30363d;
+  }
+
+  .svg-icon {
+    fill: #8b949e;
+  }
 }
