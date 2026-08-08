@@ -21,12 +21,12 @@ Silence deprecation warnings, edit _config.yml:
 - replace `:platforms => [:mingw, :x64_mingw, :mswin]` with `:platforms => :windows`
 - add sass block:
 
-```
+{% highlight ruby %}
 sass:
   quiet_deps: true
   silence_deprecations:
     - import
-```
+{% endhighlight %}
 
 - restart local server: `bundle exec jekyll serve`
 
